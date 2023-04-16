@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/61afb59a87.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>it-VEGA Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light" id="header">
+        <div class="container-md">
+            <a class="navbar-brand" href="#">
+                <img src="./assets//images/var2.png" alt="it-VEGA" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achiev">Достижения</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tech">Технологии</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Проекты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <cite class="nav-link disabled fw-light"> — сайт создан с помощью Vite+Bootstrap 5</cite>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Свяжитесь со мной
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Укажите ваши данные</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Тема сообщения:</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">
+                                            Сообщение:</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                <button type="button" class="btn btn-primary">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero py-5 bg-primary mt-5" id="hero">
+        <div class="container-md">
+            <div class="row align-items-center py-5 text-light">
+                <div class="col-sm-12 col-md-7 my-2">
+                    <p class="fs-2">
+                        Привет меня зовут
+                    </p>
+                    <h1 class="fw-bold display-3">
+                        Иззатилло Туйчиев
+                    </h1>
+                    <p class="fs-2">
+                        И я — <span class="type_text text-dark fw-bold fs-1">
+                        </span>
+                    </p>
+                    <p class="fs-5">
+                        Я Front-end разработчик, и я очень увлечен и предан своей работе.
+                        С 4х-летним опытом
+                        работы в качестве разработчика, я приобрел навыки и знания, необходимые для успеха вашего
+                        проекта. Мне нравится каждый
+                        шаг процесса проектирования, от обсуждения и совместной работы до концепции и выполнения. Но я
+                        нахожу большую часть приятного в
+                        том, чтобы увидеть, как готовый продукт делает все для вас, для чего он был создан!
+                        <br>А еще являюсь учителем в Специализированной государственной обще-образовательной школе №2 г.
+                        Фергана,
+                        где обучаю и даю направление ученикам, которые интересуются IT!
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-5 my-2">
+                    <img src="./assets//images/MyPhoto.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="achiev pt-5 " id="achiev">
+        <div class="container-md py-5">
+            <h2>
+                <span class="text-primary fw-bold">#</span> Достижения
+            </h2>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-12 col-md-4 my-2">
+                    <a href="./assets//images/sertificat-SAFU-1.jpg" target="_blank">
+                        <img src="./assets//images/sertificat-SAFU-1.jpg" class="img-fluid img-thumbnail" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4 my-2">
+                    <a href="./assets//images/sertificat-SAFU-2.jpg" target="_blank">
+                        <img src="./assets//images/sertificat-SAFU-2.jpg" class="img-fluid img-thumbnail" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4 my-2">
+                    <a href="./assets//images/sertificat-SSGA-1.jpg" target="_blank">
+                        <img src="./assets//images/sertificat-SSGA-1.jpg" class="img-fluid img-thumbnail" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tech my-5 py-5" id="tech">
+        <div class="container-md">
+            <h2>
+                <span class="text-primary fw-bold">#</span> Технологии
+            </h2>
+            <div class="row align-items-center">
+                <div class="col">
+                    <hr class="my-4">
+                </div>
+                <div class="col text-center"><i class="fa-brands fa-slack fa-2xl"></i></div>
+                <div class="col">
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div class="row align-items-center py-4 justify-content-center">
+                <div class="row py-4 align-items-center text-center">
+                    <div class="col my-2">
+                        <span>
+                            <i class="fa-brands fa-html5 fa-2xl text-warning"></i> HTML/CSS
+                        </span>
+                    </div>
+                    <div class="col my-2">
+                        <span>
+                            <i class="fa-brands fa-bootstrap fa-2xl" style="color: #712ef7;"></i> Bootstrap
+                        </span>
+                    </div>
+                    <div class="col my-2">
+                        <span>
+                            <i class="fa-brands fa-node-js fa-2xl text-warning"></i> Javascript
+                        </span>
+                    </div>
+                    <div class="col my-2">
+                        <span>
+                            <i class="fa-brands fa-vuejs fa-2xl text-success"></i> Vue
+                        </span>
+                    </div>
+                    <div class="col my-2">
+                        <span>
+                            <i class="fa-brands fa-wordpress fa-2xl text-primary"></i> WordPress
+                        </span>
+                    </div>
+                    <div class="col my-2">
+                        <span>
+                            <img src="./assets//images/icons/tilda.png" alt="tilda" class="img-fluid" width="30"> Tilda
+                        </span>
+                    </div>
+                </div>
+                <div class="row pt-2 pb-4 align-items-center text-center">
+                    <div class="col">
+                        <span>
+                            <i class="fa-brands fa-python fa-2xl"></i> Python
+                        </span>
+                    </div>
+                    <div class="col">
+                        <span>
+                            <i class="fa-solid fa-robot fa-2xl" style="color: #0f5ee6;"></i> TelegramBotAPI
+                        </span>
+                    </div>
+                    <div class="col">
+                        <span>
+                            <i class="fa-solid fa-file-excel fa-2xl text-success"></i> Openpyxl
+                        </span>
+                    </div>
+                    <div class="col">
+                        <span>
+                            <img src="./assets//images/icons/django.png" alt="Django" class="img-fluid" width="50">
+                            Django
+                        </span>
+                    </div>
+                    <div class="col">
+                        <span>
+                            <i class="fa-solid fa-code fa-2xl"></i> Парсинг
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    <hr class="my-4">
+                </div>
+                <div class="col text-center"><i class="fa-brands fa-slack fa-2xl"></i></div>
+                <div class="col">
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="container-md py-5">
+            <h2>
+                <span class="text-primary fw-bold">#</span> Проекты
+            </h2>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-12 col-md-4 my-2">
+                    <div class="card p-3">
+                        <div class="card_text">
+                            <h3><i class="fa-brands fa-python fa-xl text-primary"></i> Telegram Bot</h3>
+                            <p class="sub_title">
+                                Я создал телеграм бота, который учитывает отсутствующих в школе.
+                                Классный руководитель запустив бота, видит свой класс. Выбирает отсутствующего ученика и
+                                указывает причину его отсутствия.
+                                Бот записывает его Ф.И.О, класс, адрес проживания, номер телефона, Ф.И.О родителей и их
+                                номера.
+                                Затем создается отчет в виде Excel, который получает зам.директор школы.
+                            </p>
+                            <a href="https://t.me/checkstudents_bot" class="btn btn-outline-primary" target="_blank">
+                                <i class="fa-brands fa-telegram fa-lg"></i> Ссылка на бот
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 my-2">
+                    <div class="card p-3">
+                        <div class="card_text">
+                            <h3><i class="fa-regular fa-file-code fa-lg text-primary"></i>
+                                Script для ПК</h3>
+                            <p class="sub_title">
+                                Я создал скрипт, который очищает весь мусор с рабочего стола,минуя нужные программы для
+                                учеников.
+                                Очищает папки загрузки, изображения. Очищает историю браузера. Создает нужные ярлыки
+                                сайтов на
+                                рабочем столе, рекомендованные Министерством народного образования Республики
+                                Узбекистан.
+                            </p>
+                            <a href="https://github.com/it-VEGA/SchoolPc-Cleaner" class="btn btn-outline-primary"
+                                target="_blank">
+                                <i class="fa-brands fa-github fa-lg"></i> Репозиторий
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 my-2">
+                    <div class="card p-3">
+                        <div class="card_text">
+                            <h3><i class="fa-solid fa-car-side fa-lg text-primary"></i> Сайт для
+                                TapoDisk</h3>
+                            <p class="sub_title">
+                                Я создал сайт, для завода TapoDisk, который производит штампованные диски
+                                колёс для легковых автомобилей и выполнение различных работ по металлообработке
+                            </p>
+                            <a href="https://etd.uz/" class="btn btn-outline-primary" target="_blank">
+                                <i class="fa-solid fa-globe fa-lg"></i> TapoDisk
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+    <script type="module" src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
