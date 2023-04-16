@@ -17,4 +17,11 @@ body {
   border: 3px dotted #0d6efd;
   border-radius: 6px;
   position: relative;
+}
+
+@media screen and (max-width: 410px) {
+  .text-end {
+    text-align: center !important;
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=styles.css.map */
