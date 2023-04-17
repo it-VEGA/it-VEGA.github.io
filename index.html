@@ -43,39 +43,6 @@
                         <cite class="nav-link disabled fw-light"> — KEEP CALM AND MAKE EPIC SHIT!</cite>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Свяжитесь со мной
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Укажите ваши данные</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <form action="">
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Тема сообщения:</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">
-                                            Сообщение:</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                                            rows="3"></textarea>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                <button type="button" class="btn btn-primary">Отправить</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </nav>
@@ -105,6 +72,41 @@
                         Фергана,
                         где обучаю и даю направление ученикам, которые интересуются IT!
                     </p>
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Свяжитесь со мной
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered text-dark">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Укажите ваши данные</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Тема
+                                                сообщения:</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">
+                                                Сообщение:</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Отправить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-5 my-2">
                     <img src="./assets//images/MyPhoto.png" alt="" class="img-fluid">
@@ -120,17 +122,20 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-sm-12 col-md-4 my-2">
                     <a href="./assets//images/sertificat-SAFU-1.jpg" target="_blank">
-                        <img src="./assets//images/sertificat-SAFU-1.jpg" class="img-fluid img-thumbnail" alt="...">
+                        <img src="./assets//images/sertificat-SAFU-1-transformed.jpeg" class="img-fluid img-thumbnail"
+                            alt="...">
                     </a>
                 </div>
                 <div class="col-sm-12 col-md-4 my-2">
                     <a href="./assets//images/sertificat-SAFU-2.jpg" target="_blank">
-                        <img src="./assets//images/sertificat-SAFU-2.jpg" class="img-fluid img-thumbnail" alt="...">
+                        <img src="./assets//images/sertificat-SAFU-2-transformed.jpeg" class="img-fluid img-thumbnail"
+                            alt="...">
                     </a>
                 </div>
                 <div class="col-sm-12 col-md-4 my-2">
                     <a href="./assets//images/sertificat-SSGA-1.jpg" target="_blank">
-                        <img src="./assets//images/sertificat-SSGA-1.jpg" class="img-fluid img-thumbnail" alt="...">
+                        <img src="./assets//images/sertificat-SSGA-1-transformed.jpeg" class="img-fluid img-thumbnail"
+                            alt="...">
                     </a>
                 </div>
             </div>
@@ -310,10 +315,11 @@
             </div>
         </div>
     </footer>
-    <script type="module" src="./assets/js/main.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script type="module" src="./assets/js/main.js"></script>
 </body>
 
 </html>
