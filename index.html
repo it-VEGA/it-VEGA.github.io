@@ -85,25 +85,32 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <form action="">
+                                    <form action="send_mail.php" method="POST">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Имя:</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                name="name">
+                                        </div>
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label">Тема
                                                 сообщения:</label>
-                                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                name="title">
                                         </div>
                                         <div class="mb-3">
                                             <label for="exampleFormControlTextarea1" class="form-label">
                                                 Сообщение:</label>
                                             <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                rows="3"></textarea>
+                                                name="message" rows="3"></textarea>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Закрыть</button>
+                                            <button type="submit" class="btn btn-primary">Отправить</button>
                                         </div>
                                     </form>
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Закрыть</button>
-                                    <button type="button" class="btn btn-primary">Отправить</button>
-                                </div>
+
                             </div>
                         </div>
                     </div>
