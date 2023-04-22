@@ -37,6 +37,12 @@ body {
   border-radius: 6px;
   position: relative;
 }
+.card .card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+}
 
 @media screen and (max-width: 410px) {
   .text-end {
